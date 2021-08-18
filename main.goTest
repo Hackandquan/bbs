@@ -1,0 +1,59 @@
+/*package main
+
+import (
+	"github.com/kataras/iris/v12"
+	"github.com/kataras/iris/v12/mvc"
+)
+
+func main() {
+	app := iris.New()
+	booksAPI := app.Party("/books")
+	{
+		booksAPI.Use(iris.Compression)
+		booksAPI.Get("/")
+		booksAPI.Post("/")
+	}
+	m := mvc.New(booksAPI)
+	m.Handle(new(BookController))
+	app.Listen(":9090")
+}
+
+type Book struct {
+	Title string `json:"title"`
+}
+func list(ctx iris.Context) {
+	books := []Book{
+		{"Books1"},
+		{"Book2"},
+		{"Book3"},
+	}
+	ctx.JSON(books)
+}
+func create(ctx iris.Context) {
+	var b Book
+	err := ctx.ReadJSON(&b)
+	if err !=  nil {
+		ctx.StopWithProblem(iris.StatusBadRequest, iris.NewProblem().Title("Book createion failure").DetailErr(err))
+		return
+	}
+	println("reaceived Book: "+ b.Title)
+	ctx.StatusCode(iris.StatusCreated)
+}
+
+type BookController struct {
+}
+// GET: http://localhost:8080/books
+func (c *BookController) Get() []Book {
+	return []Book{
+		{"Mastering Concurrency in Go"},
+		{"Go Design Patterns"},
+		{"Black Hat Go"},
+	}
+}
+// POST: http://localhost:8080/books
+func (c *BookController) Post(b Book) int {
+	println("Received Book: " + b.Title)
+
+	return iris.StatusCreated
+}
+*/

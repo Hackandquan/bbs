@@ -1,0 +1,538 @@
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T072038.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T072013.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T071957.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "1562400033000000123",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T071921.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "1562400033000000123",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T071743.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": 1629025866348,
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T071711.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": 1629025866348,
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T071250.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": 1629025866348,
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T071223.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": 1629025866348,
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T071203.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "1629025866348",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T071136.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2021-08-15T08:13:20.604Z",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T071041.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2021-08-15T08:13:20.604Z",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T041344.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2018-01-14",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T041244.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2018-01-14",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T041227.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2018-01-14",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T041148.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2018-01-14",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T041147.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2018-01-14",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T041146.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2018-01-14",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T041145.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2018-01-14",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T041138.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2018-01-14",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T041127.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2018-01-14",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T041032.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2018-01-14",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T040845.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2018-01-14T21:45:54+08:00",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T040705.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2021-08-15 01:02:03",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T040520.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2021-08-15T08:03:09.081Z",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T040454.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2021-08-15",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T040425.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2021-08-15",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T040401.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2021-08-15T08:03:09.081Z",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T040323.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2021-08-15",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T040251.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2021-08-15",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T040230.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2021-08-15 15:00:07",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T040217.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2021-08-15 15:00:07",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T040152.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2021-08-15 15:00:07",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T035806.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2021-08-15 15:00:07",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T035715.200.json
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2021-08-15 15:00:07",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T035701.404.txt
+
+###
+
+GET http://localhost:9092/api/topic/list
+Content-Type: application/json
+
+{
+  "createTime": "2021-08-15 15:00:07",
+  "page": 10,
+  "pageSize": 1,
+  "recommend": 1,
+  "nodeId": "123"
+}
+
+<> 2021-08-15T035359.404.txt
+
+###
+
