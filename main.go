@@ -2,6 +2,7 @@ package main
 
 import (
 	"bbs/controller"
+	"bbs/model"
 	"bbs/pkg/config"
 	"fmt"
 
@@ -16,7 +17,7 @@ func init() {
 	// gorm 配置
 	gormConf := &gorm.Config{}
 	// 连接数据库
-	if err := simple.OpenDB(conf.MySqlUrl, gormConf, 10, 20); err != nil {
+	if err := simple.OpenDB(conf.MySqlUrl, gormConf, 10, 20, model.Models...); err != nil {
 		panic("gorm:" + err.Error())
 	}
 }
