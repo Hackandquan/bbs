@@ -151,12 +151,13 @@ type Topic struct {
 // 主题标签
 type TopicTag struct {
 	Model
-	TopicId           int64 `gorm:"not null;index:idx_topic_tag_topic_id;" json:"topicId" form:"topicId"`                // 主题编号
-	TagId             int64 `gorm:"not null;index:idx_topic_tag_tag_id;" json:"tagId" form:"tagId"`                      // 标签编号
-	Status            int64 `gorm:"not null;index:idx_topic_tag_status" json:"status" form:"status"`                     // 状态：正常、删除
-	LastCommentTime   int64 `gorm:"index:idx_topic_tag_last_comment_time" json:"lastCommentTime" form:"lastCommentTime"` // 最后回复时间
-	LastCommentUserId int64 `json:"lastCommentUserId" form:"lastCommentUserId"`                                          // 最后回复用户
-	CreateTime        int64 `json:"createTime" form:"createTime"`                                                        // 创建时间
+	Name              string `gorm:"not null" json:"name" form:"name"`
+	TopicId           int64  `gorm:"not null;index:idx_topic_tag_topic_id;" json:"topicId" form:"topicId"`                // 主题编号
+	TagId             int64  `gorm:"not null;index:idx_topic_tag_tag_id;" json:"tagId" form:"tagId"`                      // 标签编号
+	Status            int64  `gorm:"not null;index:idx_topic_tag_status" json:"status" form:"status"`                     // 状态：正常、删除
+	LastCommentTime   int64  `gorm:"index:idx_topic_tag_last_comment_time" json:"lastCommentTime" form:"lastCommentTime"` // 最后回复时间
+	LastCommentUserId int64  `json:"lastCommentUserId" form:"lastCommentUserId"`                                          // 最后回复用户
+	CreateTime        int64  `json:"createTime" form:"createTime"`                                                        // 创建时间
 }
 
 // 用户点赞
@@ -222,13 +223,13 @@ type Link struct {
 // 用户积分流水
 type UserScoreLog struct {
 	Model
-	UserId      int64  `gorm:"not null;index:idx_user_score_log_user_id" json:"userId" form:"userId"`   // 用户编号
+	UserId      int64  `gorm:"not null;index:idx_user_score_log_user_id" json:"userId" form:"userId"`           // 用户编号
 	SourceType  string `gorm:"not null;size:64;index:idx_user_score_score" json:"sourceType" form:"sourceType"` // 积分来源类型
 	SourceId    string `gorm:"not null;size:64;index:idx_user_score_score" json:"sourceId" form:"sourceId"`     // 积分来源编号
-	Description string `json:"description" form:"description"`                                          // 描述
-	Type        int    `json:"type" form:"type"`                                                        // 类型(增加、减少)
-	Score       int    `json:"score" form:"score"`                                                      // 积分
-	CreateTime  int64  `json:"createTime" form:"createTime"`                                            // 创建时间
+	Description string `json:"description" form:"description"`                                                  // 描述
+	Type        int    `json:"type" form:"type"`                                                                // 类型(增加、减少)
+	Score       int    `json:"score" form:"score"`                                                              // 积分
+	CreateTime  int64  `json:"createTime" form:"createTime"`                                                    // 创建时间
 }
 
 // 操作日志

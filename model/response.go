@@ -60,5 +60,5 @@ type UserInfo struct {
 
 type TagResponse struct {
 	TagId   int64  `json:"tagId"`
-	TagName string `json:"tagId"`
+	TagName string `json:"tagName"`
 }

@@ -1,3 +1,8 @@
 Env: dev
 Port: 9092
 MySqlUrl: root:19931019@tcp(localhost:3306)/bbsgo_db?charset=utf8mb4&parseTime=True&loc=Local
+
+oAuthApps:
+  github:
+    clientId: b9cd784adc5f1b0140d5
+    clientSecret: 37909664c992caffc36b5717287dad6998b64d52

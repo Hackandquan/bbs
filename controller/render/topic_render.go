@@ -8,7 +8,7 @@ import (
 	"github.com/mlogclub/simple"
 )
 
-func BuldSimpleTopics(topics []model.Topic, currentUser *model.User) []model.TopicResponse {
+func BuildSimpleTopics(topics []model.Topic, currentUser *model.User) []model.TopicResponse {
 	if len(topics) == 0 {
 		return make([]model.TopicResponse, 0)
 	}

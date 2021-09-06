@@ -2,7 +2,7 @@ package render
 
 import "bbs/model"
 
-func BuidlTag(tag *model.TopicTag) *model.TagResponse {
+func BuildTag(tag *model.TopicTag) *model.TagResponse {
 	if tag == nil {
 		return nil
 	}
@@ -12,13 +12,13 @@ func BuidlTag(tag *model.TopicTag) *model.TagResponse {
 	}
 }
 
-func BuildTags(tags *[]model.TopicTag) *[]model.TagResponse {
+func BuildTags(tags []model.TopicTag) *[]model.TagResponse {
 	if len(tags) == 0 {
 		return &[]model.TagResponse{}
 	}
-	responses := &[]model.TagResponse{}
+	responses := []model.TagResponse{}
 	for _, tag := range tags {
-		reponses = append(responses, *BuildTag(&tag))
+		responses = append(responses, *BuildTag(&tag))
 	}
-	return responses
+	return &responses
 }

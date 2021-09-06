@@ -3,6 +3,7 @@ package api
 import (
 	"bbs/controller/render"
 	"bbs/model"
+	"bbs/model/constants"
 	"bbs/service"
 	"strconv"
 
@@ -14,17 +15,19 @@ type TopicController struct {
 	Ctx iris.Context
 }
 
-type TopicListResp struct {
-	model.TopicListCondition
-	Id int
-}
-
 // 增
 // 发表topic
 func (c *TopicController) PostCreate() *simple.JsonResult {
-	// 判断是否登录
+	// 判断是否登录：从 ctx 中
+	loginUser := service.UserTokenService.GetCurrent(c.Ctx)
+	if loginUser == nil {
+
+	}
 	// 判断用户status：是否已经被删
+	if loginUser.Status == constants.StatusDeleted {
+	}
 	// 判断用户是否在禁言状态：isForbidden
+
 	// 操作
 }
 
@@ -46,7 +49,7 @@ func (c *TopicController) GetList() *simple.JsonResult {
 	topics, cursor, hasMore := service.TopicService.GetTopics(body.NodeId, body.Cursor, body.Recommend)
 	// 获取当前登录用户
 	var user *model.User = nil
-	return simple.JsonCursorData(render.BuldSimpleTopics(topics, user), strconv.FormatInt(cursor, 10), hasMore)
+	return simple.JsonCursorData(render.BuildSimpleTopics(topics, user), strconv.FormatInt(cursor, 10), hasMore)
 }
 
 // 改
